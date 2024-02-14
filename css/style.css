@@ -1,0 +1,52 @@
+.del-btn{
+    margin-left: 10px;
+}
+.help-block{
+    color: red;
+}
+#message-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 999999999;
+}
+
+.message {
+    /* padding: 10px; */
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 600px;
+    position: relative;
+}
+.message p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.success {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.warning {
+    background-color: #851504;
+    border: 1px solid #ffeeba;
+    color: #ffff;
+}
+.danger {
+    color: #fff;
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+    color: #ffff;
+}
+.close-btn {
+    position: absolute;
+    top: 12px;
+    right: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.empty-table{
+    color: red;
+    text-align: center;
+}
